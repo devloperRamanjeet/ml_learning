@@ -15,24 +15,32 @@
 <form action= "{% url 'result' %}">
 
     {% csrf_token %}
-    <label>Pclass</label>
+    <label>Pclass
     <input type="text" name="pclass">
-
-    <label>Sex</label>
+   </label>
+    <label>Sex
     <input type="text" name="sex">
-
-    <label>Age</label>
+</label>
+    <label>Age
     <input type="text" name="age">
-    <label>Sibsp</label>
+        </label>
+    <label>Sibsp
     <input type="text" name="sibsp">
-    <lable>Parch</lable>
-    <input type="text" name="parch">
+        </label>
+    <lable>Parch
+        <label>
+            <input type="text" name="parch">
+        </label>
+    </lable>
     <label>Fare</label>
-    <input type="text" name="fare">
-    <label>Embarked</label>
+    <label>
+        <input type="text" name="fare">
+    </label>
+    <label>Embarked
     <input type="text" name="embarked">
-    <label>Title</label>
-    <input type="text" name="title">
+        </label>
+    <label>Title
+    <input type="text" name="title"></label>
     <br>
     <input type="submit" class="button">
 
