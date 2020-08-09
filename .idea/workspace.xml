@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="" />
+    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ml_learning" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -143,6 +147,7 @@
       <workItem from="1596946814609" duration="1516000" />
       <workItem from="1596948458334" duration="211000" />
       <workItem from="1596948671694" duration="863000" />
+      <workItem from="1596955670079" duration="287000" />
     </task>
     <servers />
   </component>
@@ -170,14 +175,14 @@
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
     <state x="2367" y="220" key="FileChooserDialogImpl/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596955468681" />
-    <state x="2470" y="396" key="Github.ShareDialog" timestamp="1596948598468">
+    <state x="2470" y="396" key="Github.ShareDialog" timestamp="1596955800372">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2470" y="396" key="Github.ShareDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596948598468" />
-    <state x="2142" y="155" key="Github.UntrackedFilesDialog" timestamp="1596947017010">
+    <state x="2470" y="396" key="Github.ShareDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596955800372" />
+    <state x="2142" y="155" key="Github.UntrackedFilesDialog" timestamp="1596955875981">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2142" y="155" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596947017010" />
+    <state x="2142" y="155" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596955875981" />
     <state width="1385" height="206" key="GridCell.Tab.0.bottom" timestamp="1596893368346">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
@@ -198,10 +203,10 @@
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
     <state x="1863" y="95" key="SettingsEditor/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892356645" />
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596948655798">
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596955915319">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596948655798" />
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596955915319" />
     <state x="2391" y="194" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596948642922">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
