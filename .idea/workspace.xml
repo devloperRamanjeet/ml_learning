@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/devloperRamanjeet/ml_learning" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="833eabc7-8c0b-4edc-a2ff-183b59ad92ac" />
+  <component name="ProjectId" id="1foguRCcaqD2yu6U6RMOVKDYK5n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ml_learning" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KIIT\PycharmProjects\djangoProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.djangoProject">
+    <configuration name="ML_Model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/djangoProject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/djangoProject/ML_Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/djangoProject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/djangoProject/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ML_Model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="" />
+      <created>1596890083036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596890083036</updated>
+      <workItem from="1596890119043" duration="3232000" />
+      <workItem from="1596946814609" duration="1516000" />
+      <workItem from="1596948458334" duration="211000" />
+      <workItem from="1596948671694" duration="863000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2304" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596892035031">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="2304" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892035031" />
+    <state x="2367" y="220" key="FileChooserDialogImpl" timestamp="1596955468681">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="2367" y="220" key="FileChooserDialogImpl/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596955468681" />
+    <state x="2470" y="396" key="Github.ShareDialog" timestamp="1596948598468">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="2470" y="396" key="Github.ShareDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596948598468" />
+    <state x="2142" y="155" key="Github.UntrackedFilesDialog" timestamp="1596947017010">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="2142" y="155" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596947017010" />
+    <state width="1385" height="206" key="GridCell.Tab.0.bottom" timestamp="1596893368346">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state width="1385" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596893368346" />
+    <state width="1385" height="206" key="GridCell.Tab.0.center" timestamp="1596893368346">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state width="1385" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596893368346" />
+    <state width="1385" height="206" key="GridCell.Tab.0.left" timestamp="1596893368346">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state width="1385" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596893368346" />
+    <state width="1385" height="206" key="GridCell.Tab.0.right" timestamp="1596893368346">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state width="1385" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596893368346" />
+    <state x="1863" y="95" key="SettingsEditor" timestamp="1596892356645">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="1863" y="95" key="SettingsEditor/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892356645" />
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596948655798">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596948655798" />
+    <state x="2391" y="194" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596948642922">
+      <screen x="1920" y="95" width="1440" height="860" />
+    </state>
+    <state x="2391" y="194" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596948642922" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProject$ML_Model.coverage" NAME="ML_Model Coverage Results" MODIFIED="1596891851609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject" />
+    <SUITE FILE_PATH="coverage/djangoProject$test.coverage" NAME="test Coverage Results" MODIFIED="1596891989024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject" />
+  </component>
+</project>
