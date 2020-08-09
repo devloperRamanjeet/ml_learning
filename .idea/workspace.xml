@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="check git">
+    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="check -2">
+      <change afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +149,7 @@
       <workItem from="1596946814609" duration="1516000" />
       <workItem from="1596948458334" duration="211000" />
       <workItem from="1596948671694" duration="863000" />
-      <workItem from="1596955670079" duration="813000" />
+      <workItem from="1596955670079" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="check git">
       <created>1596956119940</created>
@@ -155,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596956119940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="check -2">
+      <created>1596956608929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596956608929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="check git" />
-    <option name="LAST_COMMIT_MESSAGE" value="check git" />
+    <MESSAGE value="check -2" />
+    <option name="LAST_COMMIT_MESSAGE" value="check -2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2304" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596892035031">
@@ -214,10 +225,10 @@
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
     <state x="1863" y="95" key="SettingsEditor/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892356645" />
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596956138940">
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596956647527">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596956138940" />
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596956647527" />
     <state x="2391" y="194" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596948642922">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
