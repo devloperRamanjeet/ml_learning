@@ -10,16 +10,17 @@
 
 </head>
 
-<body>
+<body style="background-color: aqua">
+
     <div class="container-fluid">
-        <div class="jumbotron">
+        <div class="jumbotron" style="background-color: slateblue">
             <h1 class="display-3">Machine Learning</h1>
             <p class="lead">For Beginner To Get The Feel Of Real World Problem</p>
             <hr class="my-2">
             <p>More info</p>
-
         </div>
-        <div class="jumbotron jumbotron-fluid">
+
+        <div class="jumbotron jumbotron-fluid" style="background-color: #9fcdff" >
             <div class="container">
                 <h1 class="display-4">ABOUT</h1>
                 <p class="lead"> The sinking of the Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t
@@ -28,53 +29,69 @@
                     with other data scientists and machine learning engineers, and enter competitions t o solve data science challenges.</p>
             </div>
         </div>
-        <h3>Features</h3>
-        <li>Pclass (Ticket class): 1=1st,2=2nd,3=3rd</li>
-        <li>Sex: 0=male,1=female</li>
-        <li>Age:less than 16=0 greater than 16=1 greater than 32=2 greater than 48=3</li>
-        <li>Sibsp(# of siblings / spouses aboard the Titanic)</li>
-        <li>Parch</li>
-        <li>Fare:0,1,2,3</li>
-        <li>Embarked:1,2,3</li>
-        <li>Title:1,2,3,4</li>
-        <h3>MODEL USED FOR TRANING IS RNDOM FOREST</h3>
-        <h2>Accuracy score:86.76%</h2>
 
-        <form action="{% url 'result' %}">
-            {% csrf_token %}
-            <div class="form-row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" name="pclass">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" name="sex">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" name="age">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" name="sibsp">
-                </div>
-            </div><br>
-            <br>
-            <div class="form-row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" name="parch">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" name="fare">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" name="embarked">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" name="title">
-                </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Features
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Pclass (Ticket class): 1=1st,2=2nd,3=3rd</li>
+                        <li class="list-group-item">Sex: 0=male,1=female</li>
+                        <li class="list-group-item">Age:less than 16=0 greater than 16=1 greater than 32=2 greater than 48=3</li>
+                        <li class="list-group-item">Sibsp(# of siblings / spouses aboard the Titanic)</li>
+                        <li class="list-group-item">Parch</li>
+                        <li class="list-group-item">Fare:0,1,2,3</li>
+                        <li class="list-group-item">Embarked:1,2,3</li>
+                        <li class="list-group-item">Title:1,2,3,4</li>
 
-            </div><br>
-            <input class="btn btn-secondary btn-lg float-right" type="submit">
+                    </ul>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="card-header">
+                    Predict The Servival Of Titanic Tragedy
+                </div>
+                <form action="{% url 'result' %}">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="pclass" name="pclass">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="sex" name="sex">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="age" name="age">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="sibsp" name="sibsp">
+                        </div>
+                    </div><br>
+                    <br>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Parch" name="parch">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="fare" name="fare">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="embarked" name="embarked">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="title" name="title">
+                        </div>
 
-        </form>
+                    </div><br>
+                    <input class="btn btn-secondary btn-lg float-right" type="submit" value="Predict">
+
+                </form>
+                <h3>MODEL USED FOR TRANING IS RNDOM FOREST</h3>
+                <h2>Accuracy score:86.76%</h2>
+            </div>
+        </div>
     </div>
 </body>
 

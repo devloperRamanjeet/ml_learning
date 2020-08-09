@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="sataic connect">
-      <change afterPath="$PROJECT_DIR$/static/bootstrap.min.css" afterDir="false" />
+    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="bootstrap">
+      <change afterPath="$PROJECT_DIR$/static/titanic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1596946814609" duration="1516000" />
       <workItem from="1596948458334" duration="211000" />
       <workItem from="1596948671694" duration="863000" />
-      <workItem from="1596955670079" duration="8234000" />
+      <workItem from="1596955670079" duration="10942000" />
     </task>
     <task id="LOCAL-00001" summary="check git">
       <created>1596956119940</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596957112425</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bootstrap">
+      <created>1596971522321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596971522323</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +201,8 @@
     <MESSAGE value="check git" />
     <MESSAGE value="check -2" />
     <MESSAGE value="sataic connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="sataic connect" />
+    <MESSAGE value="bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2304" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596892035031">
@@ -234,10 +241,10 @@
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
     <state x="1863" y="95" key="SettingsEditor/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892356645" />
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596957196648">
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596971536933">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596957196648" />
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596971536933" />
     <state x="2391" y="194" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596948642922">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
