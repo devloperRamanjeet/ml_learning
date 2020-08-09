@@ -1,50 +1,81 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Titanic</title>
-<link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
 
 </head>
+
 <body>
-<h1>WELCOME TO TITANIC MACHINE LEARNING MODEL</h1>
-<h1> checking git push and pull</h1>
-<h3>Get Your Predictions</h3>
-<p>Please Enter Your Passenger Values</P>
-<p>This is New passage</P>
-<form action= "{% url 'result' %}">
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1 class="display-3">Machine Learning</h1>
+            <p class="lead">For Beginner To Get The Feel Of Real World Problem</p>
+            <hr class="my-2">
+            <p>More info</p>
 
-    {% csrf_token %}
-    <label>Pclass
-    <input type="text" name="pclass">
-   </label>
-    <label>Sex
-    <input type="text" name="sex">
-</label>
-    <label>Age
-    <input type="text" name="age">
-        </label>
-    <label>Sibsp
-    <input type="text" name="sibsp">
-        </label>
-    <lable>Parch
-        <label>
-            <input type="text" name="parch">
-        </label>
-    </lable>
-    <label>Fare</label>
-    <label>
-        <input type="text" name="fare">
-    </label>
-    <label>Embarked
-    <input type="text" name="embarked">
-        </label>
-    <label>Title
-    <input type="text" name="title"></label>
-    <br>
-    <input type="submit" class="button">
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">ABOUT</h1>
+                <p class="lead"> The sinking of the Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t
+                    enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew. While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.</p>
+                <p class="lead">Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work
+                    with other data scientists and machine learning engineers, and enter competitions t o solve data science challenges.</p>
+            </div>
+        </div>
+        <h3>Features</h3>
+        <li>Pclass (Ticket class): 1=1st,2=2nd,3=3rd</li>
+        <li>Sex: 0=male,1=female</li>
+        <li>Age:less than 16=0 greater than 16=1 greater than 32=2 greater than 48=3</li>
+        <li>Sibsp(# of siblings / spouses aboard the Titanic)</li>
+        <li>Parch</li>
+        <li>Fare:0,1,2,3</li>
+        <li>Embarked:1,2,3</li>
+        <li>Title:1,2,3,4</li>
+        <h3>MODEL USED FOR TRANING IS RNDOM FOREST</h3>
+        <h2>Accuracy score:86.76%</h2>
 
-</form>
+        <form action="{% url 'result' %}">
+            {% csrf_token %}
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="pclass">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" name="sex">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="age">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" name="sibsp">
+                </div>
+            </div><br>
+            <br>
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="parch">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" name="fare">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="embarked">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="title">
+                </div>
+
+            </div><br>
+            <input class="btn btn-secondary btn-lg float-right" type="submit">
+
+        </form>
+    </div>
 </body>
+
 </html>
