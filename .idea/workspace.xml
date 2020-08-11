@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="bootstrap">
-      <change afterPath="$PROJECT_DIR$/static/titanic.jpg" afterDir="false" />
+    <list default="true" id="cedb37eb-8bad-47ea-bf47-aea7e2f1cac1" name="Default Changelist" comment="css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
@@ -53,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -149,7 +148,9 @@
       <workItem from="1596946814609" duration="1516000" />
       <workItem from="1596948458334" duration="211000" />
       <workItem from="1596948671694" duration="863000" />
-      <workItem from="1596955670079" duration="10942000" />
+      <workItem from="1596955670079" duration="11000000" />
+      <workItem from="1596977040786" duration="100000" />
+      <workItem from="1597050948922" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="check git">
       <created>1596956119940</created>
@@ -179,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596971522323</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="css">
+      <created>1596974519962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596974519962</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,17 +210,18 @@
     <MESSAGE value="check -2" />
     <MESSAGE value="sataic connect" />
     <MESSAGE value="bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
+    <MESSAGE value="css" />
+    <option name="LAST_COMMIT_MESSAGE" value="css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2304" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596892035031">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
     <state x="2304" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892035031" />
-    <state x="2367" y="220" key="FileChooserDialogImpl" timestamp="1596955468681">
+    <state x="2367" y="220" key="FileChooserDialogImpl" timestamp="1597051477575">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2367" y="220" key="FileChooserDialogImpl/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596955468681" />
+    <state x="2367" y="220" key="FileChooserDialogImpl/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1597051477575" />
     <state x="2470" y="396" key="Github.ShareDialog" timestamp="1596955800372">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
@@ -241,10 +250,10 @@
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
     <state x="1863" y="95" key="SettingsEditor/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596892356645" />
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596971536933">
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2" timestamp="1596974533485">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
-    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596971536933" />
+    <state x="2132" y="192" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.95.1440.860@1920.95.1440.860" timestamp="1596974533485" />
     <state x="2391" y="194" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596948642922">
       <screen x="1920" y="95" width="1440" height="860" />
     </state>
